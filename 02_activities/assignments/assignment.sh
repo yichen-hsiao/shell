@@ -25,6 +25,9 @@ curl -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_ac
 unzip -q rawdata.zip
 
 ###########################################
+# UofT-DSI | Shell - Assignment
+# Yi-Chen Hsiao
+###########################################
 # Complete assignment here
 
 # 1. Create a directory named data
@@ -33,6 +36,9 @@ unzip -q rawdata.zip
 
 # 2. Move the ./rawdata directory to ./data/raw
     mv rawdata data/raw
+
+    # Since the ./data/raw directory does not exist yet:
+    # this command will move the rawdata directory and all of its contents into data/ and rename the it as raw 
 
 # 3. List the contents of the ./data/raw directory
     ls data/raw/
